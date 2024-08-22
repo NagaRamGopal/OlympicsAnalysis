@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 df=pd.read_csv(r'C:\Users\ramgo\OneDrive\Desktop\Learn\Analysis\OlympicsAnalysis\olympics2024.csv')
 
+#Final Distribution
+
 #horizontal bar chart for total medals by country
 plt.figure(figsize=(12, 8))
 sns.barplot(y='Country', x='Total', data=df, palette='viridis')
